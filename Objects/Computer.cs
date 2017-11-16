@@ -68,6 +68,8 @@ namespace IIS.MyTestApplicationEmber
         
         private string fDescription3;
         
+        private string fDescription4;
+        
         private System.Nullable<System.DateTime> fCreateTime;
         
         private string fCreator;
@@ -236,6 +238,37 @@ namespace IIS.MyTestApplicationEmber
                 //  *** Start programmer edit section *** (Computer.Description3 Set end)
 
                 //  *** End programmer edit section *** (Computer.Description3 Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Description4.
+        /// </summary>
+        //  *** Start programmer edit section *** (Computer.Description4 CustomAttributes)
+
+        //  *** End programmer edit section *** (Computer.Description4 CustomAttributes)
+        public virtual string Description4
+        {
+            get
+            {
+                //  *** Start programmer edit section *** (Computer.Description4 Get start)
+
+                //  *** End programmer edit section *** (Computer.Description4 Get start)
+                string result = this.fDescription4;
+                //  *** Start programmer edit section *** (Computer.Description4 Get end)
+
+                //  *** End programmer edit section *** (Computer.Description4 Get end)
+                return result;
+            }
+            set
+            {
+                //  *** Start programmer edit section *** (Computer.Description4 Set start)
+
+                //  *** End programmer edit section *** (Computer.Description4 Set start)
+                this.fDescription4 = value;
+                //  *** Start programmer edit section *** (Computer.Description4 Set end)
+
+                //  *** End programmer edit section *** (Computer.Description4 Set end)
             }
         }
         
