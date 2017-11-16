@@ -39,6 +39,8 @@ CREATE TABLE [Computer] (
 
 	 [Description3] VARCHAR(MAX)  NULL,
 
+	 [Description4] VARCHAR(MAX)  NULL,
+
 	 [CreateTime] DATETIME  NULL,
 
 	 [Creator] VARCHAR(255)  NULL,

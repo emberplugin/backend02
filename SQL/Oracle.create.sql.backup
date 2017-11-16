@@ -38,9 +38,11 @@ CREATE TABLE "Computer"
 
 	"Type" NVARCHAR2(9) NULL,
 
-	"Description" StringMax NULL,
+	"Description" NCLOB NULL,
 
-	"Description3" StringMax NULL,
+	"Description3" NCLOB NULL,
+
+	"Description4" NCLOB NULL,
 
 	"CreateTime" DATE NULL,
 
