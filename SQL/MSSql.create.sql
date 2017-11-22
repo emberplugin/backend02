@@ -2,13 +2,11 @@
 
 
 
-CREATE TABLE [ComputerPart] (
+CREATE TABLE [Type] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
-	 [Broken] BIT  NULL,
-
-	 [SerialNumber] VARCHAR(255)  NULL,
+	 [Name] VARCHAR(255)  NULL,
 
 	 [CreateTime] DATETIME  NULL,
 
@@ -17,10 +15,6 @@ CREATE TABLE [ComputerPart] (
 	 [EditTime] DATETIME  NULL,
 
 	 [Editor] VARCHAR(255)  NULL,
-
-	 [Type] UNIQUEIDENTIFIER  NULL,
-
-	 [Computer] UNIQUEIDENTIFIER  NOT NULL,
 
 	 PRIMARY KEY ([primaryKey]))
 
@@ -52,11 +46,13 @@ CREATE TABLE [Computer] (
 	 PRIMARY KEY ([primaryKey]))
 
 
-CREATE TABLE [Type] (
+CREATE TABLE [ComputerPart] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
-	 [Name] VARCHAR(255)  NULL,
+	 [Broken] BIT  NULL,
+
+	 [SerialNumber] VARCHAR(255)  NULL,
 
 	 [CreateTime] DATETIME  NULL,
 
@@ -65,6 +61,10 @@ CREATE TABLE [Type] (
 	 [EditTime] DATETIME  NULL,
 
 	 [Editor] VARCHAR(255)  NULL,
+
+	 [Type] UNIQUEIDENTIFIER  NULL,
+
+	 [Computer] UNIQUEIDENTIFIER  NOT NULL,
 
 	 PRIMARY KEY ([primaryKey]))
 
