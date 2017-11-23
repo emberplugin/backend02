@@ -21,35 +21,6 @@ CREATE TABLE "Type"
 ) ;
 
 
-CREATE TABLE "Computer"
-(
-
-	"primaryKey" RAW(16) NOT NULL,
-
-	"SerialNumber" NVARCHAR2(255) NULL,
-
-	"ManufactureDate" DATE NULL,
-
-	"Type" NVARCHAR2(9) NULL,
-
-	"Description" NCLOB NULL,
-
-	"Description3" NCLOB NULL,
-
-	"Description4" NCLOB NULL,
-
-	"CreateTime" DATE NULL,
-
-	"Creator" NVARCHAR2(255) NULL,
-
-	"EditTime" DATE NULL,
-
-	"Editor" NVARCHAR2(255) NULL,
-
-	 PRIMARY KEY ("primaryKey")
-) ;
-
-
 CREATE TABLE "ComputerPart"
 (
 
@@ -70,6 +41,31 @@ CREATE TABLE "ComputerPart"
 	"Type" RAW(16) NULL,
 
 	"Computer" RAW(16) NOT NULL,
+
+	 PRIMARY KEY ("primaryKey")
+) ;
+
+
+CREATE TABLE "Computer"
+(
+
+	"primaryKey" RAW(16) NOT NULL,
+
+	"SerialNumber" NVARCHAR2(255) NULL,
+
+	"ManufactureDate" DATE NULL,
+
+	"Type" NVARCHAR2(9) NULL,
+
+	"Description" NCLOB NULL,
+
+	"CreateTime" DATE NULL,
+
+	"Creator" NVARCHAR2(255) NULL,
+
+	"EditTime" DATE NULL,
+
+	"Editor" NVARCHAR2(255) NULL,
 
 	 PRIMARY KEY ("primaryKey")
 ) ;

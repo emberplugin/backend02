@@ -19,33 +19,6 @@ CREATE TABLE [Type] (
 	 PRIMARY KEY ([primaryKey]))
 
 
-CREATE TABLE [Computer] (
-
-	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
-
-	 [SerialNumber] VARCHAR(255)  NULL,
-
-	 [ManufactureDate] DATETIME  NULL,
-
-	 [Type] VARCHAR(9)  NULL,
-
-	 [Description] VARCHAR(MAX)  NULL,
-
-	 [Description3] VARCHAR(MAX)  NULL,
-
-	 [Description4] VARCHAR(MAX)  NULL,
-
-	 [CreateTime] DATETIME  NULL,
-
-	 [Creator] VARCHAR(255)  NULL,
-
-	 [EditTime] DATETIME  NULL,
-
-	 [Editor] VARCHAR(255)  NULL,
-
-	 PRIMARY KEY ([primaryKey]))
-
-
 CREATE TABLE [ComputerPart] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
@@ -65,6 +38,29 @@ CREATE TABLE [ComputerPart] (
 	 [Type] UNIQUEIDENTIFIER  NULL,
 
 	 [Computer] UNIQUEIDENTIFIER  NOT NULL,
+
+	 PRIMARY KEY ([primaryKey]))
+
+
+CREATE TABLE [Computer] (
+
+	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [SerialNumber] VARCHAR(255)  NULL,
+
+	 [ManufactureDate] DATETIME  NULL,
+
+	 [Type] VARCHAR(9)  NULL,
+
+	 [Description] VARCHAR(MAX)  NULL,
+
+	 [CreateTime] DATETIME  NULL,
+
+	 [Creator] VARCHAR(255)  NULL,
+
+	 [EditTime] DATETIME  NULL,
+
+	 [Editor] VARCHAR(255)  NULL,
 
 	 PRIMARY KEY ([primaryKey]))
 
