@@ -2,14 +2,12 @@
 
 
 
-CREATE TABLE "ComputerPart"
+CREATE TABLE "Type"
 (
 
 	"primaryKey" RAW(16) NOT NULL,
 
-	"Broken" NUMBER(1) NULL,
-
-	"SerialNumber" NVARCHAR2(255) NULL,
+	"Name" NVARCHAR2(255) NULL,
 
 	"CreateTime" DATE NULL,
 
@@ -18,10 +16,6 @@ CREATE TABLE "ComputerPart"
 	"EditTime" DATE NULL,
 
 	"Editor" NVARCHAR2(255) NULL,
-
-	"Type" RAW(16) NULL,
-
-	"Computer" RAW(16) NOT NULL,
 
 	 PRIMARY KEY ("primaryKey")
 ) ;
@@ -56,12 +50,14 @@ CREATE TABLE "Computer"
 ) ;
 
 
-CREATE TABLE "Type"
+CREATE TABLE "ComputerPart"
 (
 
 	"primaryKey" RAW(16) NOT NULL,
 
-	"Name" NVARCHAR2(255) NULL,
+	"Broken" NUMBER(1) NULL,
+
+	"SerialNumber" NVARCHAR2(255) NULL,
 
 	"CreateTime" DATE NULL,
 
@@ -70,6 +66,10 @@ CREATE TABLE "Type"
 	"EditTime" DATE NULL,
 
 	"Editor" NVARCHAR2(255) NULL,
+
+	"Type" RAW(16) NULL,
+
+	"Computer" RAW(16) NOT NULL,
 
 	 PRIMARY KEY ("primaryKey")
 ) ;
