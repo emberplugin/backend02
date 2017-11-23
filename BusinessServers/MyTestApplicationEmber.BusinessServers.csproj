@@ -77,55 +77,55 @@
       <HintPath>..\packages\Microsoft.Spatial.6.15.0\lib\portable-net45+win+wpa81\Microsoft.Spatial.dll</HintPath>
     </Reference>
     <Reference Include="ChangesToSqlBTMonitor">
-      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta08\lib\net45\ChangesToSqlBTMonitor.dll</HintPath>
+      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta02\lib\net45\ChangesToSqlBTMonitor.dll</HintPath>
     </Reference>
     <Reference Include="ExternalLangDef">
-      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta08\lib\net45\ExternalLangDef.dll</HintPath>
+      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta02\lib\net45\ExternalLangDef.dll</HintPath>
     </Reference>
     <Reference Include="ICSSoft.Services.CurrentUserService">
-      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta08\lib\net45\ICSSoft.Services.CurrentUserService.dll</HintPath>
+      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta02\lib\net45\ICSSoft.Services.CurrentUserService.dll</HintPath>
     </Reference>
     <Reference Include="ICSSoft.Services.UnityFactory">
-      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta08\lib\net45\ICSSoft.Services.UnityFactory.dll</HintPath>
+      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta02\lib\net45\ICSSoft.Services.UnityFactory.dll</HintPath>
     </Reference>
     <Reference Include="ICSSoft.STORMNET.Business">
-      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta08\lib\net45\ICSSoft.STORMNET.Business.dll</HintPath>
+      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta02\lib\net45\ICSSoft.STORMNET.Business.dll</HintPath>
     </Reference>
     <Reference Include="ICSSoft.STORMNET.Business.DRDataService">
-      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta08\lib\net45\ICSSoft.STORMNET.Business.DRDataService.dll</HintPath>
+      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta02\lib\net45\ICSSoft.STORMNET.Business.DRDataService.dll</HintPath>
     </Reference>
     <Reference Include="ICSSoft.STORMNET.Business.LINQProvider">
-      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta08\lib\net45\ICSSoft.STORMNET.Business.LINQProvider.dll</HintPath>
+      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta02\lib\net45\ICSSoft.STORMNET.Business.LINQProvider.dll</HintPath>
     </Reference>
     <Reference Include="ICSSoft.STORMNET.Business.LockService">
-      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta08\lib\net45\ICSSoft.STORMNET.Business.LockService.dll</HintPath>
+      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta02\lib\net45\ICSSoft.STORMNET.Business.LockService.dll</HintPath>
     </Reference>
     <Reference Include="ICSSoft.STORMNET.Business.MSSQLDataService">
-      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta08\lib\net45\ICSSoft.STORMNET.Business.MSSQLDataService.dll</HintPath>
+      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta02\lib\net45\ICSSoft.STORMNET.Business.MSSQLDataService.dll</HintPath>
     </Reference>
     <Reference Include="ICSSoft.STORMNET.Business.ODBCDataService">
-      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta08\lib\net45\ICSSoft.STORMNET.Business.ODBCDataService.dll</HintPath>
+      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta02\lib\net45\ICSSoft.STORMNET.Business.ODBCDataService.dll</HintPath>
     </Reference>
     <Reference Include="ICSSoft.STORMNET.Business.OracleDataService">
-      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta08\lib\net45\ICSSoft.STORMNET.Business.OracleDataService.dll</HintPath>
+      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta02\lib\net45\ICSSoft.STORMNET.Business.OracleDataService.dll</HintPath>
     </Reference>
     <Reference Include="ICSSoft.STORMNET.Business.PostgresDataService">
-      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta08\lib\net45\ICSSoft.STORMNET.Business.PostgresDataService.dll</HintPath>
+      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta02\lib\net45\ICSSoft.STORMNET.Business.PostgresDataService.dll</HintPath>
     </Reference>
     <Reference Include="ICSSoft.STORMNET.Collections">
-      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta08\lib\net45\ICSSoft.STORMNET.Collections.dll</HintPath>
+      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta02\lib\net45\ICSSoft.STORMNET.Collections.dll</HintPath>
     </Reference>
     <Reference Include="ICSSoft.STORMNET.DataObject">
-      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta08\lib\net45\ICSSoft.STORMNET.DataObject.dll</HintPath>
+      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta02\lib\net45\ICSSoft.STORMNET.DataObject.dll</HintPath>
     </Reference>
     <Reference Include="ICSSoft.STORMNET.FunctionalLanguage">
-      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta08\lib\net45\ICSSoft.STORMNET.FunctionalLanguage.dll</HintPath>
+      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta02\lib\net45\ICSSoft.STORMNET.FunctionalLanguage.dll</HintPath>
     </Reference>
     <Reference Include="ICSSoft.STORMNET.Tools">
-      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta08\lib\net45\ICSSoft.STORMNET.Tools.dll</HintPath>
+      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta02\lib\net45\ICSSoft.STORMNET.Tools.dll</HintPath>
     </Reference>
     <Reference Include="ICSSoft.STORMNET.UserDataTypes">
-      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta08\lib\net45\ICSSoft.STORMNET.UserDataTypes.dll</HintPath>
+      <HintPath>..\packages\NewPlatform.Flexberry.ORM.4.1.0-beta02\lib\net45\ICSSoft.STORMNET.UserDataTypes.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
